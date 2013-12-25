@@ -1,0 +1,65 @@
+/**
+ * h1-6  font-family: 'PT Sans Narrow', sans-serif;
+ * p     font-family: 'Open Sans', sans-serif;
+ **/
+@import url("http://fonts.googleapis.com/css?family=PT+Sans+Narrow:400,700|Open+Sans:400,600,300,700&subset=latin,cyrillic");
+// Core variables and mixins
+@import "../vendor/bootstrap/less/variables.less";
+@import "../vendor/bootstrap/less/mixins.less";
+
+// Reset
+@import "../vendor/bootstrap/less/normalize.less";
+@import "../vendor/bootstrap/less/print.less";
+
+// Core CSS
+@import "../vendor/bootstrap/less/scaffolding.less";
+@import "../vendor/bootstrap/less/type.less";
+@import "../vendor/bootstrap/less/code.less";
+@import "../vendor/bootstrap/less/grid.less";
+//@import "../vendor/bootstrap/less/tables.less";
+//@import "../vendor/bootstrap/less/forms.less";
+//@import "../vendor/bootstrap/less/buttons.less";
+
+// Components
+//@import "../vendor/bootstrap/less/component-animations.less";
+//@import "../vendor/bootstrap/less/glyphicons.less";
+//@import "../vendor/bootstrap/less/dropdowns.less";
+//@import "../vendor/bootstrap/less/button-groups.less";
+//@import "../vendor/bootstrap/less/input-groups.less";
+//@import "../vendor/bootstrap/less/navs.less";
+//@import "../vendor/bootstrap/less/navbar.less";
+//@import "../vendor/bootstrap/less/breadcrumbs.less";
+//@import "../vendor/bootstrap/less/pagination.less";
+//@import "../vendor/bootstrap/less/pager.less";
+//@import "../vendor/bootstrap/less/labels.less";
+//@import "../vendor/bootstrap/less/badges.less";
+//@import "../vendor/bootstrap/less/jumbotron.less";
+//@import "../vendor/bootstrap/less/thumbnails.less";
+//@import "../vendor/bootstrap/less/alerts.less";
+//@import "../vendor/bootstrap/less/progress-bars.less";
+//@import "../vendor/bootstrap/less/media.less";
+//@import "../vendor/bootstrap/less/list-group.less";
+//@import "../vendor/bootstrap/less/panels.less";
+//@import "../vendor/bootstrap/less/wells.less";
+//@import "../vendor/bootstrap/less/close.less";
+
+// Components w/ JavaScript
+//@import "../vendor/bootstrap/less/modals.less";
+//@import "../vendor/bootstrap/less/tooltip.less";
+//@import "../vendor/bootstrap/less/popovers.less";
+//@import "../vendor/bootstrap/less/carousel.less";
+
+// Utility classes
+@import "../vendor/bootstrap/less/utilities.less";
+//@import "../vendor/bootstrap/less/responsive-utilities.less";
+
+
+.show-grid {
+  margin-bottom: 15px;
+  & [class^="col-"] {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    background-color: rgba(61, 106, 124, 0.15);
+    border: 1px solid rgba(61, 106, 124, 0.2);
+  }
+}
