@@ -443,6 +443,9 @@ h6,
 p {
   margin: 0 0 9px;
 }
+p > strong {
+  font-weight: 600;
+}
 .lead {
   margin-bottom: 18px;
   font-size: 14px;
