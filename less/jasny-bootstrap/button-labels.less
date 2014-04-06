@@ -1,0 +1,38 @@
+.btn-default {
+  &>.btn-label {
+    background: darken(@btn-default-bg, 8%);;
+  }
+}
+.btn-primary {
+  &>.btn-label {
+    background: darken(@btn-primary-bg, 8%);;
+  }
+}
+// Success appears as green
+.btn-success {
+  &>.btn-label {
+    background: darken(@btn-success-bg, 8%);;
+  }
+}
+// Info appears as blue-green
+.btn-info {
+  &>.btn-label {
+    background: darken(@btn-info-bg, 8%);;
+  }
+}
+// Warning appears as orange
+.btn-warning {
+  &>.btn-label {
+    background: darken(@btn-warning-bg, 8%);;
+  }
+}
+// Danger and error appear as red
+.btn-danger {
+  &>.btn-label {
+    background: darken(@btn-danger-bg, 8%);;
+  }
+}
+.btn:hover .btn-label, .btn:active .btn-label,
+.btn:focus .btn-label, .btn.active .btn-label {
+  background: transparent;
+}

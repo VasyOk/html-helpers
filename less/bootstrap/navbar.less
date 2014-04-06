@@ -1,0 +1,69 @@
+.navbar {
+  border: 0;
+  margin-bottom: 0;
+}
+.dropdown-menu {
+  border: 0;
+}
+.dropdown-menu > li > a {
+  font-weight: 600;
+}
+.navbar-header > a.navbar-brand {
+  color: #82D7F1;
+}
+.navbar-inverse .navbar-nav > .open > a,
+.navbar-inverse .navbar-nav > .open > a:hover,
+.navbar-inverse .navbar-nav > .open > a:focus,
+.navbar-inverse .navbar-nav > .active > a,
+.navbar-inverse .navbar-nav > .active > a:hover,
+.navbar-inverse .navbar-nav > .active > a:focus {
+  padding-bottom: 24px;
+  border-bottom: 2px solid #37BDF1;
+}
+.navbar-inverse .navbar-nav > li > a.userlinks {
+  padding-left: 60px;
+  padding-right: 25px;
+  position: relative;
+  text-align: center;
+  min-width: 160px;
+}
+
+.navbar-inverse .navbar-nav > li > a.userlinks > .caret{
+  position: absolute;
+  top: 34px;
+  right: 10px;
+}
+.navbar-inverse .navbar-nav > li > a.userlinks > img {
+  width: 36px;
+  position: absolute;
+  top: 17px;
+  left: 15px;
+}
+.navbar-nav > li > .dropdown-menu {
+  min-width: 100%;
+}
+@media (max-width: 767px) {
+  .navbar-inverse .navbar-nav > .open > a,
+  .navbar-inverse .navbar-nav > .open > a:hover,
+  .navbar-inverse .navbar-nav > .open > a:focus,
+  .navbar-inverse .navbar-nav > .active > a,
+  .navbar-inverse .navbar-nav > .active > a:hover,
+  .navbar-inverse .navbar-nav > .active > a:focus {
+    padding-bottom: 10px !important;
+  }
+  .navbar-inverse .navbar-nav > li > a.userlinks > img {
+    position: absolute;
+    top: 1px;
+  }
+  .navbar-inverse .navbar-nav > li > a.userlinks {
+    text-align: left;
+  }
+  .navbar-inverse .navbar-nav > li > a.userlinks > .caret{
+    top: 17px;
+  }
+}
+@media (min-width: 768px) {
+  .navbar-nav.navbar-right:last-child {
+    margin-right: 5px;
+  }
+}
