@@ -1,5 +1,5 @@
-.nav-list {
-  //
+.nav.nav-list {
+  margin-bottom: 10px;
 }
 
 .nav.nav-list > li {
@@ -13,8 +13,33 @@
   margin: 20px 0 0 0;
   text-transform: uppercase;
   font-size: 11px;
+  margin-bottom: 5px;
 }
 
 .nav.nav-list > li > a {
   padding: 5px 15px;
+  color: #7D9BB4;
+}
+
+.nav.nav-list > li > a > .label.pull-right,
+.nav.nav-list > li > a > .label.pull-left {
+  margin: 3px;
+}
+
+.nav.nav-list > li > a > .label.label-default {
+  background-color: transparent;
+}
+
+.nav.nav-list > li > a:hover,
+.nav.nav-list > li.active > a,
+.nav.nav-list > li > a:active {
+  color: #D0E3F3;
+  background: #2F3942;
+  border-radius: 3px;
+}
+
+.nav.nav-list > li > a:hover > .label.label-default,
+.nav.nav-list > li.active > a > .label.label-default,
+.nav.nav-list > li > a:active > .label.label-default {
+  background-color: #3e4750;
 }
