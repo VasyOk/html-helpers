@@ -1,2 +1,6 @@
 .idea
 .DS_Store
+vendor/bootstrap
+vendor/Font-Awesome
+vendor/jasny-bootstrap
+vendor/jquery
